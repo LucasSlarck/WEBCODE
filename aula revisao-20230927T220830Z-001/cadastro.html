@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Sem título.png" alt="Logo" width="50%" height="20%">     
+        <nav class="menu_navegacao">
+            <ul>
+                <li><a href="home.html">Inicio</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a id="1" href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Login</h2>
+    <form action="home.html" method="POST">
+        <label for="usuario">Nome de Usuário ou E-mail:</label>
+        <input type="text" id="usuario" name="usuario" required>   
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        <button onClick="alert('Cadastro realizado com sucesso');">Cadastrar</button>
+        <button onClick="alert('Login Efetuado');">Entrar</button>
+    </form>
+</body>
+        
+</html>
